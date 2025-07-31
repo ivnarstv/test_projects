@@ -29,5 +29,4 @@ def handle_text(message):
         with open(random_image, 'rb') as photo:
             bot.send_photo(message.chat.id, photo)
 
-
 bot.polling(none_stop=True, interval=0)
